@@ -1,0 +1,270 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular ;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+
+}
+/*header banner*/
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	
+}
+/*about-us blog*/
+.container2{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+.c-p{
+	margin: 0;
+	font-family: Ubuntu-L ;
+	font-weight: 400;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	display: block;
+	
+}
+.c-h1{
+	font-size: 30px;
+	margin: 20px 0 30px;
+}
+.c_p2 {
+	margin-bottom: 45px;
+	line-height: 25px;
+	margin-top: 0;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+/*common end*/
+
+/*fonts*/
+@font-face{
+    src: url(../font/playfair/PlayfairDisplay-Black.otf);
+    font-family: PlayfairDisplay-Black ;
+
+}
+font-face{
+    src: url(../font/playfair/PlayfairDisplay-Bold.otf);
+    font-family: PlayfairDisplay-Bold ;
+}
+font-face{
+    src: url(../font/playfair/PlayfairDisplay-Italic.otf);
+
+    font-family: PlayfairDisplay-Italic ;
+}
+@font-face{
+    src: url(../font/playfair/PlayfairDisplay-Regular.otf);
+    font-family: PlayfairDisplay-Regular ;
+}
+@font-face{
+    src: url(../font/ubuntu/Ubuntu-L.ttf);
+    font-family: Ubuntu-L ;
+}
+
+/*fonts*/
+
+/*header start*/
+header{
+    padding: 25px  0;
+}
+
+.logo{
+	width: 13%;
+	float: left;
+	margin-top: 13px;
+	/*border: 1px solid black;*/
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	margin: 0 50px;
+	padding: 3px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	
+}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*about start*/
+.about-us{
+	padding: 75px 0;
+}
+
+.about-content{}
+
+
+/*about end*/
+/*blog start*/
+.blog{
+	padding: 75px 0;
+	overflow: hidden;
+}
+.single {
+	width: 47%;
+	float: left;
+	margin-bottom: 15px;
+}
+.single:nth-child(even) {
+	margin-left: 6%;
+}
+.single img {
+	width: 100%;
+	margin-bottom: 28px;
+}
+/*blogend*/
+/*newslatter start*/
+.newslatter{
+	background-color: #f0f0f0;
+	padding: 50px 0;
+}
+.container3{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1 {
+	margin-bottom: 100px;
+	font-size: 30px;
+}
+.n_sent {
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+.n_sent input {
+	padding: 10px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid;
+	width: 425px;
+	font-size: 18px;
+	outline: none;
+}
+
+.n_sent button {
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 16px;
+	right: 0;
+}
+
+/*newslatter end*/
+/*blog2 start*/
+.blog2{
+    padding: 95px 0;
+}
+.btn {
+	text-align: center;
+}
+.btn button{
+    width: 165px;
+	height: 60px;
+	border: none;
+	background: transparent;
+	border: 1px solid #626262;
+	font-family: PlayfairDisplay-Regular ;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.btn button:hover{
+	background-color: #626262;
+	color: #ddd;
+}
+/*blog2 end*/
+/*footer start*/
+footer {
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+.f-menu {
+	width: 50%;
+	float: left;
+	/*border: 1px solid;*/
+}
+.f-menu ul {
+	float: left;
+}
+.f-menu ul li {
+	list-style: none;
+	float: left;
+}
+.f-menu ul li a{
+	margin: 0 20px;
+	padding: 5px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	cursor: pointer;
+}
+.f-menu ul li a:hover{
+	border-bottom: 1px solid #626262; 
+}
+.f-icon {
+	width: 20%;
+	float: right;
+}
+.f-icon ul {
+	float: right;
+}
+.f-icon ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+}
+.f-icon ul li span{}
+.f-icon ul li a{
+	color: #626262;
+	cursor: pointer;
+	transition: .4s;
+}
+.f-icon ul li a:hover{
+    color: #b4ad9e;
+}
+.f-icon ul li a span{}
+.f-icon ul li a span i{}
+/*footer end*/
